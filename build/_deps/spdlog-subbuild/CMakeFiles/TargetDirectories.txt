@@ -1,0 +1,3 @@
+/home/astan/CLionProjects/final_project/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.dir
+/home/astan/CLionProjects/final_project/build/_deps/spdlog-subbuild/CMakeFiles/edit_cache.dir
+/home/astan/CLionProjects/final_project/build/_deps/spdlog-subbuild/CMakeFiles/rebuild_cache.dir

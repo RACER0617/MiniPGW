@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/pgw_client.dir/link.d CMakeFiles/pgw_client.dir/client.cpp.o -o pgw_client  ../common/libcommon.a ../../_deps/spdlog-build/libspdlog.a
