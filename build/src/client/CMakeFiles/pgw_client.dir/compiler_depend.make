@@ -5,7 +5,6 @@ src/client/CMakeFiles/pgw_client.dir/client.cpp.o: /home/astan/CLionProjects/fin
   _deps/spdlog-src/include/spdlog/common.h \
   _deps/spdlog-src/include/spdlog/details/backtracer.h \
   _deps/spdlog-src/include/spdlog/details/circular_q.h \
-  _deps/spdlog-src/include/spdlog/details/console_globals.h \
   _deps/spdlog-src/include/spdlog/details/file_helper.h \
   _deps/spdlog-src/include/spdlog/details/log_msg.h \
   _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h \
@@ -18,11 +17,9 @@ src/client/CMakeFiles/pgw_client.dir/client.cpp.o: /home/astan/CLionProjects/fin
   _deps/spdlog-src/include/spdlog/fmt/fmt.h \
   _deps/spdlog-src/include/spdlog/formatter.h \
   _deps/spdlog-src/include/spdlog/logger.h \
-  _deps/spdlog-src/include/spdlog/sinks/ansicolor_sink.h \
   _deps/spdlog-src/include/spdlog/sinks/base_sink.h \
   _deps/spdlog-src/include/spdlog/sinks/basic_file_sink.h \
   _deps/spdlog-src/include/spdlog/sinks/sink.h \
-  _deps/spdlog-src/include/spdlog/sinks/stdout_color_sinks.h \
   _deps/spdlog-src/include/spdlog/spdlog.h \
   _deps/spdlog-src/include/spdlog/tweakme.h \
   _deps/spdlog-src/include/spdlog/version.h \
@@ -596,7 +593,7 @@ src/common/libcommon.a:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/include/c++/14/concepts:
 
 /usr/include/c++/14/bits/locale_classes.tcc:
 
@@ -628,12 +625,6 @@ src/common/libcommon.a:
 
 /usr/include/c++/14/bits/stl_uninitialized.h:
 
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/c++/14/clocale:
-
-/usr/include/netinet/in.h:
-
 /usr/include/c++/14/bits/stl_iterator_base_types.h:
 
 /usr/include/asm-generic/types.h:
@@ -656,8 +647,6 @@ src/common/libcommon.a:
 
 /usr/include/c++/14/ratio:
 
-/usr/include/c++/14/concepts:
-
 /usr/include/c++/14/bits/unique_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
@@ -678,11 +667,23 @@ src/common/libcommon.a:
 
 /usr/include/c++/14/bits/requires_hosted.h:
 
+/usr/include/c++/14/bits/quoted_string.h:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/include/c++/14/bits/concept_check.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/c++/14/cstddef:
+
 /usr/include/c++/14/bits/move.h:
 
 /usr/include/c++/14/bits/parse_numbers.h:
 
 /usr/include/c++/14/bits/ostream.tcc:
+
+/usr/include/c++/14/condition_variable:
 
 /usr/include/c++/14/bits/nested_exception.h:
 
@@ -744,15 +745,19 @@ _deps/spdlog-src/include/spdlog/details/backtracer.h:
 
 /usr/include/c++/14/initializer_list:
 
+/usr/include/c++/14/bits/predefined_ops.h:
+
+/usr/include/c++/14/compare:
+
 /usr/include/c++/14/bits/invoke.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/c++/14/bits/indirect_array.h:
 
-/usr/include/c++/14/bits/gslice_array.h:
+/usr/include/c++/14/bits/allocator.h:
 
-_deps/spdlog-src/include/spdlog/details/log_msg.h:
+/usr/include/c++/14/tr1/bessel_function.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
@@ -768,6 +773,10 @@ _deps/spdlog-src/include/spdlog/sinks/basic_file_sink.h:
 
 _deps/spdlog-src/include/spdlog/formatter.h:
 
+/usr/include/asm-generic/bitsperlong.h:
+
+/home/astan/CLionProjects/final_project/src/common/utils.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/c++/14/bits/stream_iterator.h:
@@ -781,8 +790,6 @@ _deps/spdlog-src/include/spdlog/formatter.h:
 /usr/include/asm-generic/sockios.h:
 
 /usr/include/c++/14/bits/codecvt.h:
-
-/home/astan/CLionProjects/final_project/src/common/utils.h:
 
 /usr/lib/x86_64-linux-gnu/Scrt1.o:
 
@@ -822,51 +829,33 @@ _deps/spdlog-src/include/spdlog/spdlog.h:
 
 _deps/spdlog-src/include/spdlog/details/periodic_worker.h:
 
-/usr/include/c++/14/tuple:
-
-_deps/spdlog-src/include/spdlog/logger.h:
-
-/usr/include/x86_64-linux-gnu/bits/socket.h:
-
-/usr/include/c++/14/any:
-
-/usr/include/c++/14/bits/std_thread.h:
-
-_deps/spdlog-src/include/spdlog/details/registry.h:
-
-/usr/include/sched.h:
-
-/usr/include/c++/14/array:
-
-/usr/include/c++/14/bits/chrono.h:
-
 /usr/include/c++/14/stdexcept:
 
 /usr/include/alloca.h:
 
 /usr/include/c++/14/pstl/pstl_config.h:
 
-/usr/include/c++/14/bits/quoted_string.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/c++/14/bits/concept_check.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/c++/14/cstddef:
-
-_deps/spdlog-src/include/spdlog/sinks/stdout_color_sinks.h:
-
-/usr/include/c++/14/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/14/bits/memoryfwd.h:
-
-/usr/include/c++/14/system_error:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
 /usr/include/c++/14/bits/uses_allocator.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+_deps/spdlog-src/include/spdlog/details/log_msg.h:
+
+/usr/include/c++/14/bits/gslice_array.h:
+
+/usr/include/c++/14/bits/gslice.h:
+
+/usr/include/c++/14/algorithm:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/c++/14/bits/basic_ios.tcc:
+
+/usr/include/c++/14/bits/stl_relops.h:
+
+/usr/include/c++/14/backward/binders.h:
+
+_deps/spdlog-src/include/spdlog/fmt/fmt.h:
 
 _deps/spdlog-src/include/spdlog/details/circular_q.h:
 
@@ -878,28 +867,6 @@ _deps/spdlog-src/include/spdlog/details/circular_q.h:
 
 _deps/spdlog-src/include/spdlog/sinks/sink.h:
 
-/usr/include/c++/14/bits/hashtable.h:
-
-/usr/include/nlohmann/json.hpp:
-
-_deps/spdlog-src/include/spdlog/sinks/base_sink.h:
-
-/usr/include/pthread.h:
-
-/usr/include/c++/14/bits/stl_algobase.h:
-
-/usr/include/c++/14/chrono:
-
-/usr/include/nlohmann/ordered_map.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
-_deps/spdlog-src/include/spdlog/sinks/ansicolor_sink.h:
-
-/usr/include/c++/14/bits/align.h:
-
-_deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
-
 /usr/include/c++/14/cerrno:
 
 /usr/include/c++/14/bits/enable_special_members.h:
@@ -908,27 +875,27 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/c++/14/any:
+
+/usr/include/c++/14/bits/std_thread.h:
+
+_deps/spdlog-src/include/spdlog/logger.h:
+
+_deps/spdlog-src/include/spdlog/details/registry.h:
+
+/usr/include/sched.h:
+
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 _deps/spdlog-src/include/spdlog/common.h:
 
+/usr/include/c++/14/bits/uses_allocator_args.h:
+
+/usr/include/c++/14/bits/charconv.h:
+
 /usr/include/c++/14/bits/exception.h:
-
-/usr/include/c++/14/bits/stl_relops.h:
-
-/usr/include/c++/14/backward/binders.h:
-
-_deps/spdlog-src/include/spdlog/fmt/fmt.h:
-
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/c++/14/bits/gslice.h:
-
-/usr/include/c++/14/algorithm:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/14/bits/basic_ios.tcc:
 
 /usr/include/c++/14/valarray:
 
@@ -948,17 +915,21 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /usr/include/c++/14/bits/functexcept.h:
 
-/usr/include/strings.h:
+/usr/include/c++/14/array:
 
-/usr/include/asm-generic/bitsperlong.h:
+/usr/include/c++/14/bits/stl_algobase.h:
 
-/usr/include/c++/14/bits/charconv.h:
+/usr/include/c++/14/chrono:
 
-/usr/include/c++/14/bits/uses_allocator_args.h:
+/usr/include/nlohmann/ordered_map.hpp:
 
-/usr/include/c++/14/bits/allocator.h:
+_deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
-/usr/include/c++/14/tr1/bessel_function.tcc:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/c++/14/bits/align.h:
+
+/usr/include/c++/14/bits/chrono.h:
 
 /usr/include/c++/14/bits/valarray_after.h:
 
@@ -970,7 +941,21 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
-/usr/include/c++/14/bits/hash_bytes.h:
+/usr/include/c++/14/bits/ostream_insert.h:
+
+/usr/include/c++/14/tr1/poly_hermite.tcc:
+
+/usr/include/c++/14/clocale:
+
+/usr/include/netinet/in.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+_deps/spdlog-src/include/spdlog/fmt/bundled/core.h:
+
+/usr/include/c++/14/bits/alloc_traits.h:
+
+/usr/include/c++/14/thread:
 
 /usr/include/c++/14/bits/stl_algo.h:
 
@@ -978,15 +963,15 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /usr/include/c++/14/bits/basic_string.tcc:
 
-/usr/include/c++/14/bits/ostream_insert.h:
+/usr/include/c++/14/bits/hash_bytes.h:
 
-/usr/include/c++/14/tr1/poly_hermite.tcc:
+/usr/include/c++/14/bits/atomic_lockfree_defines.h:
 
-_deps/spdlog-src/include/spdlog/fmt/bundled/core.h:
+/usr/include/c++/14/bits/memoryfwd.h:
 
-/usr/include/c++/14/bits/alloc_traits.h:
+/usr/include/c++/14/system_error:
 
-/usr/include/c++/14/thread:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/c++/14/vector:
 
@@ -1054,11 +1039,13 @@ _deps/spdlog-src/include/spdlog/details/file_helper.h:
 
 /usr/include/c++/14/cstdio:
 
-/usr/include/c++/14/bits/predefined_ops.h:
+_deps/spdlog-src/include/spdlog/sinks/base_sink.h:
 
-/usr/include/c++/14/compare:
+/usr/include/pthread.h:
 
-/usr/include/c++/14/condition_variable:
+/usr/include/c++/14/bits/hashtable.h:
+
+/usr/include/nlohmann/json.hpp:
 
 /usr/include/nlohmann/detail/string_escape.hpp:
 
@@ -1178,6 +1165,8 @@ _deps/spdlog-build/libspdlog.a:
 
 /usr/include/c++/14/tr1/riemann_zeta.tcc:
 
+/usr/include/c++/14/tuple:
+
 /usr/include/c++/14/type_traits:
 
 /usr/include/stdc-predef.h:
@@ -1200,9 +1189,9 @@ _deps/spdlog-build/libspdlog.a:
 
 /usr/include/nlohmann/thirdparty/hedley/hedley.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
 /usr/include/c++/14/bits/valarray_array.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/features-time64.h:
 
@@ -1284,8 +1273,6 @@ _deps/spdlog-build/libspdlog.a:
 
 /usr/include/nlohmann/detail/macro_scope.hpp:
 
-_deps/spdlog-src/include/spdlog/details/console_globals.h:
-
 /usr/include/nlohmann/detail/meta/call_std/begin.hpp:
 
 /usr/include/nlohmann/detail/meta/call_std/end.hpp:
@@ -1321,6 +1308,8 @@ _deps/spdlog-src/include/spdlog/details/console_globals.h:
 /usr/include/x86_64-linux-gnu/bits/mathcalls-macros.h:
 
 /usr/include/stdlib.h:
+
+/usr/include/strings.h:
 
 /usr/include/time.h:
 
@@ -1371,3 +1360,5 @@ _deps/spdlog-src/include/spdlog/details/console_globals.h:
 /usr/include/x86_64-linux-gnu/bits/in.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:

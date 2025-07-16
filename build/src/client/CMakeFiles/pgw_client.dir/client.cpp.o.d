@@ -258,6 +258,9 @@ src/client/CMakeFiles/pgw_client.dir/client.cpp.o: \
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/base_sink.h \
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/sink.h \
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/formatter.h \
+ /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/stdout_color_sinks.h \
+ /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/ansicolor_sink.h \
+ /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/details/console_globals.h \
  /home/astan/CLionProjects/final_project/src/client/../common/config.h \
  /usr/include/nlohmann/json.hpp /usr/include/c++/14/algorithm \
  /usr/include/c++/14/bits/stl_algo.h \

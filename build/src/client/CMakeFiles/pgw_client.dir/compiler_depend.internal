@@ -6,7 +6,6 @@ src/client/CMakeFiles/pgw_client.dir/client.cpp.o
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/common.h
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/details/backtracer.h
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/details/circular_q.h
- /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/details/console_globals.h
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/details/file_helper.h
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/details/log_msg.h
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/details/log_msg_buffer.h
@@ -19,11 +18,9 @@ src/client/CMakeFiles/pgw_client.dir/client.cpp.o
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/fmt/fmt.h
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/formatter.h
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/logger.h
- /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/ansicolor_sink.h
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/base_sink.h
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/basic_file_sink.h
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/sink.h
- /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/stdout_color_sinks.h
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/spdlog.h
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/tweakme.h
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/version.h

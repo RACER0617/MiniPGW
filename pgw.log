@@ -1,0 +1,24 @@
+[2025-07-17 01:20:08.944] [pgw_logger] [info] Server logging initialized: UDP 0.0.0.0:9000 HTTP port 8080 CDR file /home/astan/CLionProjects/final_project/cdr.log
+[2025-07-17 01:20:08.944] [pgw_logger] [info] UDP server listening on 0.0.0.0:9000
+[2025-07-17 01:20:34.439] [pgw_logger] [info] Session created for IMSI 123456789012345
+[2025-07-17 01:21:04.999] [pgw_logger] [info] Session deleted for IMSI 123456789012345
+[2025-07-17 01:22:31.389] [pgw_logger] [info] Session created for IMSI 123456789012345
+[2025-07-17 01:22:33.491] [pgw_logger] [info] Subscriber 123456789012345 rejected
+[2025-07-17 01:23:02.170] [pgw_logger] [info] Session deleted for IMSI 123456789012345
+[2025-07-17 01:25:02.394] [pgw_logger] [info] Session created for IMSI 123456789012345
+[2025-07-17 01:25:33.332] [pgw_logger] [info] Session deleted for IMSI 123456789012345
+[2025-07-17 01:26:38.530] [pgw_logger] [info] Session created for IMSI 123456789012345
+[2025-07-17 01:27:09.425] [pgw_logger] [info] Session deleted for IMSI 123456789012345
+[2025-07-17 01:27:58.656] [pgw_logger] [info] Subscriber 001010123456789 rejected
+[2025-07-17 01:30:31.735] [pgw_logger] [info] Session created for IMSI 123456789012345
+[2025-07-17 01:31:02.725] [pgw_logger] [info] Session deleted for IMSI 123456789012345
+[2025-07-17 01:33:01.436] [pgw_logger] [info] Session created for IMSI 123456789012345
+[2025-07-17 01:33:31.909] [pgw_logger] [info] Session deleted for IMSI 123456789012345
+[2025-07-17 01:38:16.842] [pgw_logger] [info] Session created for IMSI 123456789012345
+[2025-07-17 01:38:47.737] [pgw_logger] [info] Session deleted for IMSI 123456789012345
+[2025-07-17 01:42:01.608] [pgw_logger] [info] Session created for IMSI 123456789012345
+[2025-07-17 01:42:32.139] [pgw_logger] [info] Session deleted for IMSI 123456789012345
+[2025-07-17 01:45:07.449] [pgw_logger] [info] Session created for IMSI 123456789012345
+[2025-07-17 01:45:37.518] [pgw_logger] [info] Session deleted for IMSI 123456789012345
+[2025-07-17 01:45:46.128] [pgw_logger] [info] Session created for IMSI 123456789012345
+[2025-07-17 01:46:16.583] [pgw_logger] [info] Session deleted for IMSI 123456789012345

@@ -376,6 +376,9 @@ src/server/CMakeFiles/pgw_server.dir/server.cpp.o: \
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/base_sink.h \
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/sink.h \
  /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/formatter.h \
+ /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/stdout_color_sinks.h \
+ /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/ansicolor_sink.h \
+ /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/details/console_globals.h \
  /home/astan/CLionProjects/final_project/src/server/../common/config.h \
  /usr/include/nlohmann/json.hpp /usr/include/nlohmann/adl_serializer.hpp \
  /usr/include/nlohmann/detail/abi_macros.hpp \
@@ -436,7 +439,4 @@ src/server/CMakeFiles/pgw_server.dir/server.cpp.o: \
  /usr/include/nlohmann/ordered_map.hpp /usr/include/c++/14/any \
  /usr/include/nlohmann/detail/macro_unscope.hpp \
  /usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
- /home/astan/CLionProjects/final_project/src/server/../common/utils.h \
- /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/stdout_color_sinks.h \
- /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/sinks/ansicolor_sink.h \
- /home/astan/CLionProjects/final_project/build/_deps/spdlog-src/include/spdlog/details/console_globals.h
+ /home/astan/CLionProjects/final_project/src/server/../common/utils.h

@@ -1,0 +1,4 @@
+[2025-07-17 01:45:46.127] [client_logger] [info] Client logging initialized: file=/home/astan/CLionProjects/final_project/client.log level=INFO 
+[2025-07-17 01:45:46.127] [client_logger] [info] Client started with IMSI: 123456789012345
+[2025-07-17 01:45:46.127] [client_logger] [info] Sent IMSI request to 127.0.0.1:9000
+[2025-07-17 01:45:46.132] [client_logger] [info] Received response: created
