@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/build/_deps/gtest-src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/build/_deps/httplib-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/_deps/nlohmann_json-src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/build/_deps/spdlog-src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cmake-build-debug/_deps/gtest-src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cmake-build-debug/_deps/httplib-src" vcs="Git" />

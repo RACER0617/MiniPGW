@@ -37,7 +37,6 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    // Initialize logger with console and file sinks
     auto console_sink = std::make_shared<spdlog::sinks::stdout_color_sink_mt>();
     console_sink->set_level(spdlog::level::info);
     auto file_sink = std::make_shared<spdlog::sinks::basic_file_sink_mt>(config.log_file, true);
@@ -143,29 +142,68 @@ int main(int argc, char* argv[]) {
     };
 
     auto cleanup_function = [&]() {
+        // Шаг 1: Удаление просроченных сессий
         while (true) {
+            {   std::lock_guard<std::mutex> lock(mutex);
+                if (shutting_down) break; // Переход к graceful shutdown
+            }
             std::this_thread::sleep_for(std::chrono::seconds(1));
-            std::lock_guard<std::mutex> lock(mutex);
-            if (shutting_down && sessions.empty()) { shutdown_complete = true; cv.notify_one(); break; }
             std::vector<std::string> to_delete;
             auto now_point = std::chrono::steady_clock::now();
-            for (auto& [imsi, sess] : sessions) {
-                if (now_point - sess.creation_time > std::chrono::seconds(config.session_timeout_sec)) {
-                    to_delete.push_back(imsi);
+            {   std::lock_guard<std::mutex> lock(mutex);
+                for (auto& [imsi, sess] : sessions) {
+                    if (now_point - sess.creation_time > std::chrono::seconds(config.session_timeout_sec)) {
+                        to_delete.push_back(imsi);
+                    }
+                }
+                for (auto& imsi : to_delete) {
+                    {   std::lock_guard<std::mutex> cdr_lock(cdr_mutex);
+                        auto now_c = std::time(nullptr);
+                        cdr_stream << std::put_time(std::localtime(&now_c), "%Y-%m-%d %H:%M:%S")
+                                   << "," << imsi << ",delete" << std::endl;
+                        cdr_stream.flush();
+                    }
+                    sessions.erase(imsi);
+                    logger->info("Session deleted for IMSI {}", imsi);
                 }
             }
-            for (auto& imsi : to_delete) {
-                { std::lock_guard<std::mutex> cdr_lock(cdr_mutex);
-                  auto now_c = std::time(nullptr);
-                  cdr_stream << std::put_time(std::localtime(&now_c), "%Y-%m-%d %H:%M:%S")
-                             << "," << imsi << ",delete" << std::endl;
-                  cdr_stream.flush(); }
-                sessions.erase(imsi);
-                logger->info("Session deleted for IMSI {}", imsi);
-            }
         }
-    };
 
+        // Шаг 2: Graceful shutdown
+        logger->info("Starting graceful shutdown: max {} sessions/sec", config.graceful_shutdown_rate);
+        while (true) {
+            std::vector<std::string> to_shutdown;
+            {   std::lock_guard<std::mutex> lock(mutex);
+                if (sessions.empty()) break;
+                int count = 0;
+                for (auto& [imsi, sess] : sessions) {
+                    if (count++ >= config.graceful_shutdown_rate) break;
+                    to_shutdown.push_back(imsi);
+                }
+            }
+            {   std::lock_guard<std::mutex> cdr_lock(cdr_mutex);
+                auto now_c = std::time(nullptr);
+                for (auto& imsi : to_shutdown) {
+                    cdr_stream << std::put_time(std::localtime(&now_c), "%Y-%m-%d %H:%M:%S")
+                               << "," << imsi << ",shutdown" << std::endl;
+                    logger->info("Gracefully removed session IMSI {}", imsi);
+                    {
+                        std::lock_guard<std::mutex> lock(mutex);
+                        sessions.erase(imsi);
+                    }
+                }
+                cdr_stream.flush();
+            }
+            std::this_thread::sleep_for(std::chrono::seconds(1));
+        }
+        {
+            std::lock_guard<std::mutex> lock(mutex);
+            shutdown_complete = true;
+            cv.notify_one();
+        }
+
+        logger->info("Graceful shutdown complete");
+    };
     std::thread t1(udp_function), t2(http_function), t3(cleanup_function);
     { std::unique_lock<std::mutex> lock(mutex);
       cv.wait(lock, [&]{ return shutdown_complete; }); }

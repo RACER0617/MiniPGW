@@ -3,8 +3,13 @@ project(MiniPGW)
 
 include(FetchContent)
 
-# nlohmann_json через системную установку
-find_package(nlohmann_json 3.10.5 REQUIRED)
+# nlohmann_json через FetchContent
+FetchContent_Declare(
+        nlohmann_json
+        GIT_REPOSITORY https://github.com/nlohmann/json.git
+        GIT_TAG v3.11.3  # или актуальная версия
+)
+FetchContent_MakeAvailable(nlohmann_json)
 
 # Остальные зависимости через FetchContent
 FetchContent_Declare(
