@@ -1,4 +1,6 @@
-[2025-07-18 02:33:59.801] [client_logger] [info] Client logging initialized: file=/home/astan/CLionProjects/final_project/client.log level=INFO 
-[2025-07-18 02:33:59.803] [client_logger] [info] Client started with IMSI: 444444444444444
-[2025-07-18 02:33:59.803] [client_logger] [info] Sent IMSI request to 127.0.0.1:9000
-[2025-07-18 02:33:59.805] [client_logger] [info] Received response: created
+[2025-07-19 04:02:26.971] [client_logger] [info] Client starting, IMSI=111111111111111, config=../config_client.json, debug=true
+[2025-07-19 04:02:26.971] [client_logger] [debug] Loaded client config: server_ip=127.0.0.1, server_port=9000, log_file=/home/astan/CLionProjects/final_project/client.log
+[2025-07-19 04:02:26.971] [client_logger] [debug] IMSI '111111111111111' -> BCD bytes: [17,17,17,17,17,17,17,31]
+[2025-07-19 04:02:26.971] [client_logger] [debug] UDP socket created (fd=4)
+[2025-07-19 04:02:26.971] [client_logger] [debug] Server address configured: 127.0.0.1:9000
+[2025-07-19 04:02:26.971] [client_logger] [info] Sent 8 bytes to 127.0.0.1:9000

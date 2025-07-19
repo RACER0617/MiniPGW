@@ -1,5 +1,55 @@
-[2025-07-18 02:32:42.927] [pgw_logger] [info] Server logging initialized: UDP 0.0.0.0:9000 HTTP port 8080 CDR file /home/astan/CLionProjects/final_project/cdr.log
-[2025-07-18 02:32:42.928] [pgw_logger] [info] UDP server listening on 0.0.0.0:9000
-[2025-07-18 02:32:59.938] [pgw_logger] [info] Starting graceful shutdown: max 10 sessions/sec
-[2025-07-18 02:32:59.938] [pgw_logger] [info] Graceful shutdown complete
-[2025-07-18 02:33:59.804] [pgw_logger] [info] Session created for IMSI 444444444444444
+[2025-07-19 04:01:52.881] [pgw_logger] [info] Server starting: UDP 0.0.0.0:9001  HTTP port 8080  CDR file /home/astan/CLionProjects/final_project/cdr.log  debug=false
+[2025-07-19 04:01:52.881] [pgw_logger] [debug] Config: timeout=30s, graceful_rate=1 sess/sec
+[2025-07-19 04:01:52.881] [pgw_logger] [debug] Starting UDP thread
+[2025-07-19 04:01:52.881] [pgw_logger] [info] UDP listening on 0.0.0.0:9001
+[2025-07-19 04:01:52.881] [pgw_logger] [debug] Starting HTTP thread
+[2025-07-19 04:01:52.881] [pgw_logger] [debug] Starting cleanup thread
+[2025-07-19 04:01:53.882] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:01:54.883] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:01:55.884] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:01:56.884] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:01:57.884] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:01:58.884] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:01:59.885] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:00.888] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:01.888] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:02.889] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:03.890] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:04.891] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:05.891] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:06.892] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:07.892] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:08.893] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:09.893] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:10.893] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:11.894] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:12.896] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:13.897] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:14.898] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:15.899] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:16.900] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:17.900] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:18.901] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:19.901] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:20.901] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:21.902] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:22.902] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:23.903] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:24.903] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:25.904] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:26.908] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:27.908] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:28.909] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:29.910] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:30.910] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:31.911] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:32.914] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:33.914] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:34.914] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:35.915] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:36.915] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:37.915] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:38.916] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:39.917] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:40.918] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-19 04:02:41.

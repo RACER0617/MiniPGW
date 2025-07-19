@@ -4,7 +4,7 @@
   "session_timeout_sec": 30,
   "cdr_file": "/home/astan/CLionProjects/final_project/cdr.log",
   "http_port": 8080,
-  "graceful_shutdown_rate": 10,
+  "graceful_shutdown_rate": 1,
   "log_file": "/home/astan/CLionProjects/final_project/pgw.log",
   "log_level": "INFO",
   "blacklist": [
