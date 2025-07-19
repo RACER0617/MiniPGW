@@ -10,6 +10,7 @@
 #include <spdlog/spdlog.h>
 #include <spdlog/sinks/basic_file_sink.h>
 #include <spdlog/sinks/stdout_color_sinks.h>
+#include <spdlog/sinks/ostream_sink.h>
 #include "../common/config.h"
 #include "../common/utils.h"
 
@@ -32,7 +33,7 @@ int main(int argc, char* argv[]) {
     }
 
     // Настройка логгера
-    auto console_sink = std::make_shared<spdlog::sinks::stdout_color_sink_mt>();
+    auto console_sink = std::make_shared<spdlog::sinks::ostream_sink_mt>(std::cerr);
     // В консоль: debug только если enable_debug, иначе info+
     console_sink->set_level(enable_debug ? spdlog::level::debug : spdlog::level::info);
     auto file_sink = std::make_shared<spdlog::sinks::basic_file_sink_mt>(config.log_file, true);
