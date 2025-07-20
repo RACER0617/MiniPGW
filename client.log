@@ -1,7 +1,7 @@
-[2025-07-20 20:45:32.968] [client_logger] [info] Client starting, IMSI=123456789123456, config=../config_client.json, debug=false
-[2025-07-20 20:45:32.968] [client_logger] [debug] Loaded client config: server_ip=127.0.0.1, server_port=9000, log_file=/home/astan/CLionProjects/final_project/client.log
-[2025-07-20 20:45:32.968] [client_logger] [debug] IMSI '123456789123456' -> BCD bytes: [18,52,86,120,145,35,69,111]
-[2025-07-20 20:45:32.968] [client_logger] [debug] UDP socket created (fd=4)
-[2025-07-20 20:45:32.968] [client_logger] [debug] Server address configured: 127.0.0.1:9000
-[2025-07-20 20:45:32.968] [client_logger] [info] Sent 8 bytes to 127.0.0.1:9000
-[2025-07-20 20:45:32.969] [client_logger] [info] Received response (7 bytes): 'created'
+[2025-07-20 21:43:53.315] [client_logger] [info] Client starting, IMSI=123456789123456, config=../config_client.json, debug=false
+[2025-07-20 21:43:53.316] [client_logger] [debug] Loaded client config: server_ip=127.0.0.1, server_port=9000, log_file=/home/astan/CLionProjects/final_project/client.log
+[2025-07-20 21:43:53.316] [client_logger] [debug] IMSI '123456789123456' -> BCD bytes: [18,52,86,120,145,35,69,111]
+[2025-07-20 21:43:53.316] [client_logger] [debug] UDP socket created (fd=4)
+[2025-07-20 21:43:53.316] [client_logger] [debug] Server address configured: 127.0.0.1:9000
+[2025-07-20 21:43:53.316] [client_logger] [info] Sent 8 bytes to 127.0.0.1:9000
+[2025-07-20 21:43:53.317] [client_logger] [info] Received response (7 bytes): 'created'
