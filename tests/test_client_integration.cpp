@@ -8,9 +8,9 @@
 #include <fstream>
 #include <cstdio>
 
-// Тестируем клиентскую утилиту отправки и приёма
+// Тест отправки и приёма
 TEST(ClientIntegration, SuccessfulRequest) {
-    // 1) Запустим "заглушку" UDP-сервера, который сразу отвечает "rejected"
+    // 1) Запуск заглушки UDP-сервера, которая сразу отвечает "rejected"
     int sock = socket(AF_INET, SOCK_DGRAM, 0);
     ASSERT_GE(sock, 0);
     sockaddr_in serv{};
@@ -19,7 +19,7 @@ TEST(ClientIntegration, SuccessfulRequest) {
     inet_pton(AF_INET, "127.0.0.1", &serv.sin_addr);
     bind(sock, (sockaddr*)&serv, sizeof(serv));
 
-    // Фон: читаем 8 байт и шлём обратно "rejected"
+    // чтение в фоне 8 байт и перессылка обратно "rejected"
     std::thread srv([&](){
         char buf[8];
         sockaddr_in cli{};
@@ -29,7 +29,7 @@ TEST(ClientIntegration, SuccessfulRequest) {
         close(sock);
     });
 
-    // 2) Создаём конфиг клиента
+    // 2) создание конфига клиента
     const char* cfg = R"({
         "server_ip":"127.0.0.1",
         "server_port":31000,

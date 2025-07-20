@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../common/utils.h"  // здесь должна быть функция bcdToImsiString
+#include "../common/utils.h"
 
 TEST(BcdToImsiStringTest, ValidBcd) {
     // Пример BCD: IMSI "130151024365879"
