@@ -1,0 +1,5 @@
+if(EXISTS "/home/astan/CLionProjects/final_project/build/tests/test_utils[1]_tests.cmake")
+  include("/home/astan/CLionProjects/final_project/build/tests/test_utils[1]_tests.cmake")
+else()
+  add_test(test_utils_NOT_BUILT test_utils_NOT_BUILT)
+endif()

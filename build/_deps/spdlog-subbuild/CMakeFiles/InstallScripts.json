@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/astan/CLionProjects/final_project/build/_deps/spdlog-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
