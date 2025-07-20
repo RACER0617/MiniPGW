@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/test_server_integration.dir/link.d CMakeFiles/test_server_integration.dir/test_server_integration.cpp.o -o test_server_integration  ../lib/libgtest_main.a ../src/common/libcommon.a ../lib/libgtest.a

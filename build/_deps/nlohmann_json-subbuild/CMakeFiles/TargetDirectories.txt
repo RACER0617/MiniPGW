@@ -1,3 +1,0 @@
-/home/astan/CLionProjects/final_project/build/_deps/nlohmann_json-subbuild/CMakeFiles/nlohmann_json-populate.dir
-/home/astan/CLionProjects/final_project/build/_deps/nlohmann_json-subbuild/CMakeFiles/edit_cache.dir
-/home/astan/CLionProjects/final_project/build/_deps/nlohmann_json-subbuild/CMakeFiles/rebuild_cache.dir

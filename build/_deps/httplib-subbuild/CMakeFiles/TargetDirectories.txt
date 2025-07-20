@@ -1,3 +1,0 @@
-/home/astan/CLionProjects/final_project/build/_deps/httplib-subbuild/CMakeFiles/httplib-populate.dir
-/home/astan/CLionProjects/final_project/build/_deps/httplib-subbuild/CMakeFiles/edit_cache.dir
-/home/astan/CLionProjects/final_project/build/_deps/httplib-subbuild/CMakeFiles/rebuild_cache.dir
