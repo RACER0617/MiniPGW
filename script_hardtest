@@ -1,0 +1,21 @@
+#!/bin/bash
+
+CONFIG="config_client.json"
+CLIENT="./build/src/client/pgw_client"
+
+generate_imsi() {
+  imsi=""
+  for _ in {1..15}; do
+    imsi+=$((RANDOM % 10))
+  done
+  echo "$imsi"
+}
+
+for i in {1..5000}; do
+  IMSI=$(generate_imsi)
+  echo "[$i] Sending request for IMSI: $IMSI"
+  "$CLIENT" "$CONFIG" "$IMSI" &
+done
+
+wait
+echo "All 5000 random IMSI requests sent."

@@ -24,12 +24,11 @@ struct Session {
 };
 
 int main(int argc, char* argv[]) {
-    if (argc != 2 && argc != 3) {
-        std::cerr << "Usage: " << argv[0] << " <config.json> [debug]" << std::endl;
+    if (argc != 2) {
+        std::cerr << "Usage: " << argv[0] << " <config.json>" << std::endl;
         return 1;
     }
     std::string config_file = argv[1];
-    bool enable_debug = (argc == 3 && std::string(argv[2]) == "debug");
 
     // Загрузка конфига
     ServerConfig config;
@@ -41,6 +40,7 @@ int main(int argc, char* argv[]) {
     }
 
     // Настройка логгера
+    bool enable_debug = (config.log_level == "DEBUG");
     auto console_sink = std::make_shared<spdlog::sinks::stdout_color_sink_mt>();
     // В консоль: debug только если enable_debug, иначе info+
     console_sink->set_level(enable_debug ? spdlog::level::debug : spdlog::level::info);
@@ -56,8 +56,8 @@ int main(int argc, char* argv[]) {
     logger->flush_on(spdlog::level::info);
     spdlog::set_default_logger(logger);
 
-    logger->info("Server starting: UDP {}:{}  HTTP port {}  CDR file {}  debug={}",
-                 config.udp_ip, config.udp_port, config.http_port, config.cdr_file, enable_debug);
+    logger->info("Server starting: UDP {}:{}  HTTP port {}  CDR file {}  log_level={}",
+                 config.udp_ip, config.udp_port, config.http_port, config.cdr_file, config.log_level);
     logger->debug("Config: timeout={}s, graceful_rate={} sess/sec",
                   config.session_timeout_sec, config.graceful_shutdown_rate);
 
@@ -137,10 +137,22 @@ int main(int argc, char* argv[]) {
 
             {
                 std::lock_guard<std::mutex> lock(mutex);
-                if (blacklist.count(imsi) || sessions.count(imsi)) {
+                if (blacklist.count(imsi)) {
                     sendto(sock, "rejected", 8, 0, (sockaddr*)&cli_addr, len);
-                    logger->info("Subscriber {} rejected", imsi);
+                    logger->info("Subscriber {} rejected (blacklist)", imsi);
+                } else if (sessions.count(imsi)) {
+                    // обновляем время существующей сессии
+                    sessions[imsi].creation_time = std::chrono::steady_clock::now();
+                    {
+                        std::lock_guard<std::mutex> cdr_lock(cdr_mutex);
+                        auto now_c = std::time(nullptr);
+                        cdr_stream << std::put_time(std::localtime(&now_c), "%Y-%m-%d %H:%M:%S")
+                                   << "," << imsi << ",renew\n";
+                    }
+                    logger->info("Session refreshed for IMSI {}", imsi);
+                    sendto(sock, "refreshed", 7, 0, (sockaddr*)&cli_addr, len);
                 } else {
+                    // создание новой сессии...
                     sessions[imsi] = Session{std::chrono::steady_clock::now()};
                     {
                         std::lock_guard<std::mutex> cdr_lock(cdr_mutex);

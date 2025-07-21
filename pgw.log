@@ -1,87 +1,460 @@
-[2025-07-20 21:43:18.758] [pgw_logger] [info] Server starting: UDP 0.0.0.0:9000  HTTP port 8080  CDR file /home/astan/CLionProjects/final_project/cdr.log  debug=false
-[2025-07-20 21:43:18.758] [pgw_logger] [debug] Config: timeout=30s, graceful_rate=1 sess/sec
-[2025-07-20 21:43:18.758] [pgw_logger] [debug] Starting UDP thread
-[2025-07-20 21:43:18.758] [pgw_logger] [info] UDP listening on 0.0.0.0:9000
-[2025-07-20 21:43:18.758] [pgw_logger] [debug] Starting HTTP thread
-[2025-07-20 21:43:18.759] [pgw_logger] [debug] Starting cleanup thread
-[2025-07-20 21:43:19.759] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:20.760] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:21.762] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:22.765] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:23.765] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:24.766] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:25.766] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:26.767] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:27.769] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:28.771] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:29.772] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:30.773] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:31.774] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:32.774] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:33.774] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:34.775] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:35.776] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:36.776] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:37.777] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:38.777] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:39.777] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:40.778] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:41.778] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:42.778] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:43.781] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:44.784] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:45.785] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:46.786] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:47.787] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:48.787] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:49.788] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:50.790] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:51.791] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:52.793] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:53.316] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:54494
-[2025-07-20 21:43:53.316] [pgw_logger] [debug] Decoded IMSI 123456789123456
-[2025-07-20 21:43:53.316] [pgw_logger] [info] Session created for IMSI 123456789123456
-[2025-07-20 21:43:53.793] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:54.793] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:55.794] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:56.794] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:57.794] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:58.797] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:43:59.799] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:00.801] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:01.802] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:02.802] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:03.803] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:04.782] [pgw_logger] [debug] HTTP /check_subscriber imsi=001010123456789
-[2025-07-20 21:44:04.803] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:05.803] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:06.804] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:07.807] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:08.812] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:09.820] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:10.821] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:11.821] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:12.821] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:13.824] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:14.824] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:15.824] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:16.824] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:17.826] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:18.828] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:19.708] [pgw_logger] [debug] HTTP /check_subscriber imsi=123456789123456
-[2025-07-20 21:44:19.830] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:20.842] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:21.847] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:22.848] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:23.848] [pgw_logger] [info] Session deleted for IMSI 123456789123456
-[2025-07-20 21:44:24.849] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:25.850] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:26.851] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:27.852] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:28.853] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:29.124] [pgw_logger] [info] HTTP /stop called
-[2025-07-20 21:44:29.160] [pgw_logger] [debug] UDP thread stopping
-[2025-07-20 21:44:29.853] [pgw_logger] [debug] No timed‑out sessions this cycle
-[2025-07-20 21:44:29.853] [pgw_logger] [info] Graceful shutdown: 1 sess/sec
-[2025-07-20 21:44:29.853] [pgw_logger] [info] Graceful shutdown complete
-[2025-07-20 21:44:29.853] [pgw_logger] [info] All done, exiting
+[2025-07-22 01:48:02.043] [pgw_logger] [info] Server starting: UDP 0.0.0.0:9000  HTTP port 8080  CDR file /home/astan/CLionProjects/final_project/cdr.log  log_level=INFO
+[2025-07-22 01:48:02.043] [pgw_logger] [debug] Config: timeout=30s, graceful_rate=2 sess/sec
+[2025-07-22 01:48:02.043] [pgw_logger] [debug] Starting HTTP thread
+[2025-07-22 01:48:02.044] [pgw_logger] [debug] Starting UDP thread
+[2025-07-22 01:48:02.044] [pgw_logger] [info] UDP listening on 0.0.0.0:9000
+[2025-07-22 01:48:02.044] [pgw_logger] [debug] Starting cleanup thread
+[2025-07-22 01:48:03.045] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:04.045] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:05.045] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:06.045] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:07.045] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:08.046] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:09.048] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:10.048] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:11.048] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:12.048] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:13.048] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:14.049] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:15.049] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:16.050] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:17.051] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:18.051] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:19.051] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:20.056] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:21.058] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:22.059] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:23.060] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:24.067] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:25.073] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:26.073] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:27.074] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:28.074] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:29.075] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:30.079] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:31.085] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:32.092] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:33.095] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:34.095] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:35.096] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:36.083] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:33866
+[2025-07-22 01:48:36.083] [pgw_logger] [debug] Decoded IMSI 404449529826523
+[2025-07-22 01:48:36.083] [pgw_logger] [info] Session created for IMSI 404449529826523
+[2025-07-22 01:48:36.086] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:37589
+[2025-07-22 01:48:36.086] [pgw_logger] [debug] Decoded IMSI 239667020980712
+[2025-07-22 01:48:36.086] [pgw_logger] [info] Session created for IMSI 239667020980712
+[2025-07-22 01:48:36.088] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:52968
+[2025-07-22 01:48:36.088] [pgw_logger] [debug] Decoded IMSI 271477618621798
+[2025-07-22 01:48:36.088] [pgw_logger] [info] Session created for IMSI 271477618621798
+[2025-07-22 01:48:36.090] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:35357
+[2025-07-22 01:48:36.090] [pgw_logger] [debug] Decoded IMSI 900860902107368
+[2025-07-22 01:48:36.090] [pgw_logger] [info] Session created for IMSI 900860902107368
+[2025-07-22 01:48:36.095] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:52243
+[2025-07-22 01:48:36.095] [pgw_logger] [debug] Decoded IMSI 730971528828344
+[2025-07-22 01:48:36.095] [pgw_logger] [info] Session created for IMSI 730971528828344
+[2025-07-22 01:48:36.095] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:49484
+[2025-07-22 01:48:36.095] [pgw_logger] [debug] Decoded IMSI 080075532771990
+[2025-07-22 01:48:36.095] [pgw_logger] [info] Session created for IMSI 080075532771990
+[2025-07-22 01:48:36.096] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:36.101] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:44109
+[2025-07-22 01:48:36.101] [pgw_logger] [debug] Decoded IMSI 012436371681670
+[2025-07-22 01:48:36.101] [pgw_logger] [info] Session created for IMSI 012436371681670
+[2025-07-22 01:48:36.105] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:58046
+[2025-07-22 01:48:36.105] [pgw_logger] [debug] Decoded IMSI 587911914995698
+[2025-07-22 01:48:36.105] [pgw_logger] [info] Session created for IMSI 587911914995698
+[2025-07-22 01:48:36.111] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:53173
+[2025-07-22 01:48:36.111] [pgw_logger] [debug] Decoded IMSI 568046692468783
+[2025-07-22 01:48:36.111] [pgw_logger] [info] Session created for IMSI 568046692468783
+[2025-07-22 01:48:36.113] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:50370
+[2025-07-22 01:48:36.113] [pgw_logger] [debug] Decoded IMSI 371759495232430
+[2025-07-22 01:48:36.113] [pgw_logger] [info] Session created for IMSI 371759495232430
+[2025-07-22 01:48:36.114] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:58982
+[2025-07-22 01:48:36.114] [pgw_logger] [debug] Decoded IMSI 018896423081129
+[2025-07-22 01:48:36.115] [pgw_logger] [info] Session created for IMSI 018896423081129
+[2025-07-22 01:48:36.122] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:34367
+[2025-07-22 01:48:36.122] [pgw_logger] [debug] Decoded IMSI 368156332473823
+[2025-07-22 01:48:36.122] [pgw_logger] [info] Session created for IMSI 368156332473823
+[2025-07-22 01:48:36.128] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:54499
+[2025-07-22 01:48:36.128] [pgw_logger] [debug] Decoded IMSI 898932159992447
+[2025-07-22 01:48:36.129] [pgw_logger] [info] Session created for IMSI 898932159992447
+[2025-07-22 01:48:36.131] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:45579
+[2025-07-22 01:48:36.131] [pgw_logger] [debug] Decoded IMSI 150036454914053
+[2025-07-22 01:48:36.131] [pgw_logger] [info] Session created for IMSI 150036454914053
+[2025-07-22 01:48:36.137] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:40396
+[2025-07-22 01:48:36.137] [pgw_logger] [debug] Decoded IMSI 940420329133280
+[2025-07-22 01:48:36.137] [pgw_logger] [info] Session created for IMSI 940420329133280
+[2025-07-22 01:48:36.141] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:37913
+[2025-07-22 01:48:36.141] [pgw_logger] [debug] Decoded IMSI 795147342867514
+[2025-07-22 01:48:36.142] [pgw_logger] [info] Session created for IMSI 795147342867514
+[2025-07-22 01:48:36.150] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:39439
+[2025-07-22 01:48:36.150] [pgw_logger] [debug] Decoded IMSI 083756145321240
+[2025-07-22 01:48:36.150] [pgw_logger] [info] Session created for IMSI 083756145321240
+[2025-07-22 01:48:36.162] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:53190
+[2025-07-22 01:48:36.162] [pgw_logger] [debug] Decoded IMSI 994025438433058
+[2025-07-22 01:48:36.162] [pgw_logger] [info] Session created for IMSI 994025438433058
+[2025-07-22 01:48:36.172] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:36080
+[2025-07-22 01:48:36.172] [pgw_logger] [debug] Decoded IMSI 524655378029426
+[2025-07-22 01:48:36.172] [pgw_logger] [info] Session created for IMSI 524655378029426
+[2025-07-22 01:48:36.175] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:43881
+[2025-07-22 01:48:36.175] [pgw_logger] [debug] Decoded IMSI 185997822905054
+[2025-07-22 01:48:36.175] [pgw_logger] [info] Session created for IMSI 185997822905054
+[2025-07-22 01:48:36.176] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:35141
+[2025-07-22 01:48:36.176] [pgw_logger] [debug] Decoded IMSI 402313881227034
+[2025-07-22 01:48:36.176] [pgw_logger] [info] Session created for IMSI 402313881227034
+[2025-07-22 01:48:36.182] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:52955
+[2025-07-22 01:48:36.182] [pgw_logger] [debug] Decoded IMSI 232218552758348
+[2025-07-22 01:48:36.182] [pgw_logger] [info] Session created for IMSI 232218552758348
+[2025-07-22 01:48:36.189] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:37174
+[2025-07-22 01:48:36.189] [pgw_logger] [debug] Decoded IMSI 121623993461204
+[2025-07-22 01:48:36.189] [pgw_logger] [info] Session created for IMSI 121623993461204
+[2025-07-22 01:48:36.204] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:52426
+[2025-07-22 01:48:36.204] [pgw_logger] [debug] Decoded IMSI 691813090945693
+[2025-07-22 01:48:36.204] [pgw_logger] [info] Session created for IMSI 691813090945693
+[2025-07-22 01:48:36.205] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:33232
+[2025-07-22 01:48:36.205] [pgw_logger] [debug] Decoded IMSI 161122945812489
+[2025-07-22 01:48:36.205] [pgw_logger] [info] Session created for IMSI 161122945812489
+[2025-07-22 01:48:36.212] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:46351
+[2025-07-22 01:48:36.212] [pgw_logger] [debug] Decoded IMSI 417833106154125
+[2025-07-22 01:48:36.212] [pgw_logger] [info] Session created for IMSI 417833106154125
+[2025-07-22 01:48:36.216] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:41376
+[2025-07-22 01:48:36.216] [pgw_logger] [debug] Decoded IMSI 032775171672977
+[2025-07-22 01:48:36.216] [pgw_logger] [info] Session created for IMSI 032775171672977
+[2025-07-22 01:48:36.220] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:37155
+[2025-07-22 01:48:36.220] [pgw_logger] [debug] Decoded IMSI 476724789667315
+[2025-07-22 01:48:36.220] [pgw_logger] [info] Session created for IMSI 476724789667315
+[2025-07-22 01:48:36.223] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:41016
+[2025-07-22 01:48:36.223] [pgw_logger] [debug] Decoded IMSI 149773776967787
+[2025-07-22 01:48:36.223] [pgw_logger] [info] Session created for IMSI 149773776967787
+[2025-07-22 01:48:36.225] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:35283
+[2025-07-22 01:48:36.225] [pgw_logger] [debug] Decoded IMSI 522538350205968
+[2025-07-22 01:48:36.225] [pgw_logger] [info] Session created for IMSI 522538350205968
+[2025-07-22 01:48:36.230] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:33269
+[2025-07-22 01:48:36.230] [pgw_logger] [debug] Decoded IMSI 128150917637860
+[2025-07-22 01:48:36.230] [pgw_logger] [info] Session created for IMSI 128150917637860
+[2025-07-22 01:48:36.237] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:33971
+[2025-07-22 01:48:36.237] [pgw_logger] [debug] Decoded IMSI 436767381326348
+[2025-07-22 01:48:36.237] [pgw_logger] [info] Session created for IMSI 436767381326348
+[2025-07-22 01:48:36.238] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:52617
+[2025-07-22 01:48:36.238] [pgw_logger] [debug] Decoded IMSI 643702647383244
+[2025-07-22 01:48:36.238] [pgw_logger] [info] Session created for IMSI 643702647383244
+[2025-07-22 01:48:36.240] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:60869
+[2025-07-22 01:48:36.240] [pgw_logger] [debug] Decoded IMSI 220290275097158
+[2025-07-22 01:48:36.240] [pgw_logger] [info] Session created for IMSI 220290275097158
+[2025-07-22 01:48:36.250] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:54787
+[2025-07-22 01:48:36.250] [pgw_logger] [debug] Decoded IMSI 557958134069153
+[2025-07-22 01:48:36.250] [pgw_logger] [info] Session created for IMSI 557958134069153
+[2025-07-22 01:48:36.251] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:60537
+[2025-07-22 01:48:36.251] [pgw_logger] [debug] Decoded IMSI 894451882634881
+[2025-07-22 01:48:36.251] [pgw_logger] [info] Session created for IMSI 894451882634881
+[2025-07-22 01:48:36.256] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:47138
+[2025-07-22 01:48:36.256] [pgw_logger] [debug] Decoded IMSI 169329293847469
+[2025-07-22 01:48:36.256] [pgw_logger] [info] Session created for IMSI 169329293847469
+[2025-07-22 01:48:36.261] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:49370
+[2025-07-22 01:48:36.261] [pgw_logger] [debug] Decoded IMSI 243433879270464
+[2025-07-22 01:48:36.261] [pgw_logger] [info] Session created for IMSI 243433879270464
+[2025-07-22 01:48:36.266] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:50084
+[2025-07-22 01:48:36.266] [pgw_logger] [debug] Decoded IMSI 404768436602572
+[2025-07-22 01:48:36.266] [pgw_logger] [info] Session created for IMSI 404768436602572
+[2025-07-22 01:48:36.271] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:50702
+[2025-07-22 01:48:36.271] [pgw_logger] [debug] Decoded IMSI 463628598960461
+[2025-07-22 01:48:36.271] [pgw_logger] [info] Session created for IMSI 463628598960461
+[2025-07-22 01:48:36.273] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:49552
+[2025-07-22 01:48:36.273] [pgw_logger] [debug] Decoded IMSI 717820621054705
+[2025-07-22 01:48:36.273] [pgw_logger] [info] Session created for IMSI 717820621054705
+[2025-07-22 01:48:36.276] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:46705
+[2025-07-22 01:48:36.276] [pgw_logger] [debug] Decoded IMSI 055262888082581
+[2025-07-22 01:48:36.276] [pgw_logger] [info] Session created for IMSI 055262888082581
+[2025-07-22 01:48:36.281] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:35072
+[2025-07-22 01:48:36.281] [pgw_logger] [debug] Decoded IMSI 497722131852036
+[2025-07-22 01:48:36.281] [pgw_logger] [info] Session created for IMSI 497722131852036
+[2025-07-22 01:48:36.283] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:39786
+[2025-07-22 01:48:36.283] [pgw_logger] [debug] Decoded IMSI 870295025854473
+[2025-07-22 01:48:36.284] [pgw_logger] [info] Session created for IMSI 870295025854473
+[2025-07-22 01:48:36.289] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:43236
+[2025-07-22 01:48:36.289] [pgw_logger] [debug] Decoded IMSI 652694532972689
+[2025-07-22 01:48:36.289] [pgw_logger] [info] Session created for IMSI 652694532972689
+[2025-07-22 01:48:36.293] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:49194
+[2025-07-22 01:48:36.293] [pgw_logger] [debug] Decoded IMSI 848979803439162
+[2025-07-22 01:48:36.293] [pgw_logger] [info] Session created for IMSI 848979803439162
+[2025-07-22 01:48:36.300] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:51557
+[2025-07-22 01:48:36.300] [pgw_logger] [debug] Decoded IMSI 786633413766201
+[2025-07-22 01:48:36.300] [pgw_logger] [info] Session created for IMSI 786633413766201
+[2025-07-22 01:48:36.310] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:51632
+[2025-07-22 01:48:36.310] [pgw_logger] [debug] Decoded IMSI 927882754904577
+[2025-07-22 01:48:36.310] [pgw_logger] [info] Session created for IMSI 927882754904577
+[2025-07-22 01:48:36.310] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:33334
+[2025-07-22 01:48:36.310] [pgw_logger] [debug] Decoded IMSI 560290660027081
+[2025-07-22 01:48:36.310] [pgw_logger] [info] Session created for IMSI 560290660027081
+[2025-07-22 01:48:36.318] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:40070
+[2025-07-22 01:48:36.318] [pgw_logger] [debug] Decoded IMSI 341723626203038
+[2025-07-22 01:48:36.318] [pgw_logger] [info] Session created for IMSI 341723626203038
+[2025-07-22 01:48:36.325] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:46719
+[2025-07-22 01:48:36.325] [pgw_logger] [debug] Decoded IMSI 016242040180136
+[2025-07-22 01:48:36.325] [pgw_logger] [info] Session created for IMSI 016242040180136
+[2025-07-22 01:48:36.329] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:58774
+[2025-07-22 01:48:36.329] [pgw_logger] [debug] Decoded IMSI 976161055053393
+[2025-07-22 01:48:36.329] [pgw_logger] [info] Session created for IMSI 976161055053393
+[2025-07-22 01:48:36.337] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:38275
+[2025-07-22 01:48:36.337] [pgw_logger] [debug] Decoded IMSI 705250542403714
+[2025-07-22 01:48:36.337] [pgw_logger] [info] Session created for IMSI 705250542403714
+[2025-07-22 01:48:36.342] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:54705
+[2025-07-22 01:48:36.342] [pgw_logger] [debug] Decoded IMSI 016226273160708
+[2025-07-22 01:48:36.342] [pgw_logger] [info] Session created for IMSI 016226273160708
+[2025-07-22 01:48:36.348] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:54358
+[2025-07-22 01:48:36.348] [pgw_logger] [debug] Decoded IMSI 875515211776539
+[2025-07-22 01:48:36.348] [pgw_logger] [info] Session created for IMSI 875515211776539
+[2025-07-22 01:48:36.356] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:55582
+[2025-07-22 01:48:36.356] [pgw_logger] [debug] Decoded IMSI 624534628987314
+[2025-07-22 01:48:36.357] [pgw_logger] [info] Session created for IMSI 624534628987314
+[2025-07-22 01:48:36.364] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:60661
+[2025-07-22 01:48:36.364] [pgw_logger] [debug] Decoded IMSI 507518024750166
+[2025-07-22 01:48:36.364] [pgw_logger] [info] Session created for IMSI 507518024750166
+[2025-07-22 01:48:36.366] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:60790
+[2025-07-22 01:48:36.366] [pgw_logger] [debug] Decoded IMSI 427941485879384
+[2025-07-22 01:48:36.366] [pgw_logger] [info] Session created for IMSI 427941485879384
+[2025-07-22 01:48:36.370] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:57521
+[2025-07-22 01:48:36.370] [pgw_logger] [debug] Decoded IMSI 380170183842743
+[2025-07-22 01:48:36.370] [pgw_logger] [info] Session created for IMSI 380170183842743
+[2025-07-22 01:48:36.377] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:47012
+[2025-07-22 01:48:36.377] [pgw_logger] [debug] Decoded IMSI 546984258465966
+[2025-07-22 01:48:36.377] [pgw_logger] [info] Session created for IMSI 546984258465966
+[2025-07-22 01:48:36.382] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:45893
+[2025-07-22 01:48:36.382] [pgw_logger] [debug] Decoded IMSI 747366322091251
+[2025-07-22 01:48:36.382] [pgw_logger] [info] Session created for IMSI 747366322091251
+[2025-07-22 01:48:36.389] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:38574
+[2025-07-22 01:48:36.389] [pgw_logger] [debug] Decoded IMSI 556711690509637
+[2025-07-22 01:48:36.389] [pgw_logger] [info] Session created for IMSI 556711690509637
+[2025-07-22 01:48:36.395] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:51523
+[2025-07-22 01:48:36.395] [pgw_logger] [debug] Decoded IMSI 506136633889146
+[2025-07-22 01:48:36.395] [pgw_logger] [info] Session created for IMSI 506136633889146
+[2025-07-22 01:48:36.403] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:39218
+[2025-07-22 01:48:36.403] [pgw_logger] [debug] Decoded IMSI 575154337505225
+[2025-07-22 01:48:36.403] [pgw_logger] [info] Session created for IMSI 575154337505225
+[2025-07-22 01:48:36.406] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:47686
+[2025-07-22 01:48:36.406] [pgw_logger] [debug] Decoded IMSI 751973761132700
+[2025-07-22 01:48:36.406] [pgw_logger] [info] Session created for IMSI 751973761132700
+[2025-07-22 01:48:36.416] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:43168
+[2025-07-22 01:48:36.416] [pgw_logger] [debug] Decoded IMSI 261169227903973
+[2025-07-22 01:48:36.416] [pgw_logger] [info] Session created for IMSI 261169227903973
+[2025-07-22 01:48:36.426] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:38562
+[2025-07-22 01:48:36.426] [pgw_logger] [debug] Decoded IMSI 123131727491358
+[2025-07-22 01:48:36.426] [pgw_logger] [info] Session created for IMSI 123131727491358
+[2025-07-22 01:48:36.426] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:48546
+[2025-07-22 01:48:36.426] [pgw_logger] [debug] Decoded IMSI 820161358339833
+[2025-07-22 01:48:36.426] [pgw_logger] [info] Session created for IMSI 820161358339833
+[2025-07-22 01:48:36.430] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:39267
+[2025-07-22 01:48:36.430] [pgw_logger] [debug] Decoded IMSI 629362282244529
+[2025-07-22 01:48:36.430] [pgw_logger] [info] Session created for IMSI 629362282244529
+[2025-07-22 01:48:36.444] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:58008
+[2025-07-22 01:48:36.445] [pgw_logger] [debug] Decoded IMSI 020135479232365
+[2025-07-22 01:48:36.445] [pgw_logger] [info] Session created for IMSI 020135479232365
+[2025-07-22 01:48:36.445] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:56868
+[2025-07-22 01:48:36.445] [pgw_logger] [debug] Decoded IMSI 530742478465827
+[2025-07-22 01:48:36.445] [pgw_logger] [info] Session created for IMSI 530742478465827
+[2025-07-22 01:48:36.455] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:58297
+[2025-07-22 01:48:36.455] [pgw_logger] [debug] Decoded IMSI 087299731247113
+[2025-07-22 01:48:36.455] [pgw_logger] [info] Session created for IMSI 087299731247113
+[2025-07-22 01:48:36.466] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:42519
+[2025-07-22 01:48:36.466] [pgw_logger] [debug] Decoded IMSI 091966951052184
+[2025-07-22 01:48:36.466] [pgw_logger] [info] Session created for IMSI 091966951052184
+[2025-07-22 01:48:36.466] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:49406
+[2025-07-22 01:48:36.466] [pgw_logger] [debug] Decoded IMSI 123492562025047
+[2025-07-22 01:48:36.466] [pgw_logger] [info] Session created for IMSI 123492562025047
+[2025-07-22 01:48:36.478] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:42284
+[2025-07-22 01:48:36.478] [pgw_logger] [debug] Decoded IMSI 787459806304842
+[2025-07-22 01:48:36.478] [pgw_logger] [info] Session created for IMSI 787459806304842
+[2025-07-22 01:48:36.480] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:37852
+[2025-07-22 01:48:36.480] [pgw_logger] [debug] Decoded IMSI 015171572060308
+[2025-07-22 01:48:36.480] [pgw_logger] [info] Session created for IMSI 015171572060308
+[2025-07-22 01:48:36.483] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:38944
+[2025-07-22 01:48:36.483] [pgw_logger] [debug] Decoded IMSI 542503971662285
+[2025-07-22 01:48:36.483] [pgw_logger] [info] Session created for IMSI 542503971662285
+[2025-07-22 01:48:36.488] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:36861
+[2025-07-22 01:48:36.488] [pgw_logger] [debug] Decoded IMSI 028184171001167
+[2025-07-22 01:48:36.488] [pgw_logger] [info] Session created for IMSI 028184171001167
+[2025-07-22 01:48:36.491] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:38156
+[2025-07-22 01:48:36.491] [pgw_logger] [debug] Decoded IMSI 186822680843718
+[2025-07-22 01:48:36.491] [pgw_logger] [info] Session created for IMSI 186822680843718
+[2025-07-22 01:48:36.492] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:39599
+[2025-07-22 01:48:36.492] [pgw_logger] [debug] Decoded IMSI 303720661645630
+[2025-07-22 01:48:36.492] [pgw_logger] [info] Session created for IMSI 303720661645630
+[2025-07-22 01:48:36.502] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:49112
+[2025-07-22 01:48:36.502] [pgw_logger] [debug] Decoded IMSI 859599808737273
+[2025-07-22 01:48:36.502] [pgw_logger] [info] Session created for IMSI 859599808737273
+[2025-07-22 01:48:36.503] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:59341
+[2025-07-22 01:48:36.503] [pgw_logger] [debug] Decoded IMSI 826346993664740
+[2025-07-22 01:48:36.503] [pgw_logger] [info] Session created for IMSI 826346993664740
+[2025-07-22 01:48:36.508] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:40133
+[2025-07-22 01:48:36.508] [pgw_logger] [debug] Decoded IMSI 778568222474804
+[2025-07-22 01:48:36.508] [pgw_logger] [info] Session created for IMSI 778568222474804
+[2025-07-22 01:48:36.516] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:52808
+[2025-07-22 01:48:36.516] [pgw_logger] [debug] Decoded IMSI 838963026453474
+[2025-07-22 01:48:36.516] [pgw_logger] [info] Session created for IMSI 838963026453474
+[2025-07-22 01:48:36.519] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:60787
+[2025-07-22 01:48:36.519] [pgw_logger] [debug] Decoded IMSI 180521190771989
+[2025-07-22 01:48:36.519] [pgw_logger] [info] Session created for IMSI 180521190771989
+[2025-07-22 01:48:36.520] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:33600
+[2025-07-22 01:48:36.520] [pgw_logger] [debug] Decoded IMSI 681176302935874
+[2025-07-22 01:48:36.520] [pgw_logger] [info] Session created for IMSI 681176302935874
+[2025-07-22 01:48:36.531] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:49948
+[2025-07-22 01:48:36.531] [pgw_logger] [debug] Decoded IMSI 441790665534903
+[2025-07-22 01:48:36.531] [pgw_logger] [info] Session created for IMSI 441790665534903
+[2025-07-22 01:48:36.535] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:55764
+[2025-07-22 01:48:36.535] [pgw_logger] [debug] Decoded IMSI 539224174321109
+[2025-07-22 01:48:36.535] [pgw_logger] [info] Session created for IMSI 539224174321109
+[2025-07-22 01:48:36.542] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:32849
+[2025-07-22 01:48:36.542] [pgw_logger] [debug] Decoded IMSI 933977337113661
+[2025-07-22 01:48:36.542] [pgw_logger] [info] Session created for IMSI 933977337113661
+[2025-07-22 01:48:36.547] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:32897
+[2025-07-22 01:48:36.547] [pgw_logger] [debug] Decoded IMSI 048094666624967
+[2025-07-22 01:48:36.547] [pgw_logger] [info] Session created for IMSI 048094666624967
+[2025-07-22 01:48:36.550] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:36067
+[2025-07-22 01:48:36.550] [pgw_logger] [debug] Decoded IMSI 377346786022220
+[2025-07-22 01:48:36.550] [pgw_logger] [info] Session created for IMSI 377346786022220
+[2025-07-22 01:48:36.562] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:35092
+[2025-07-22 01:48:36.562] [pgw_logger] [debug] Decoded IMSI 914370825251301
+[2025-07-22 01:48:36.562] [pgw_logger] [info] Session created for IMSI 914370825251301
+[2025-07-22 01:48:36.564] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:54958
+[2025-07-22 01:48:36.564] [pgw_logger] [debug] Decoded IMSI 394432480595393
+[2025-07-22 01:48:36.564] [pgw_logger] [info] Session created for IMSI 394432480595393
+[2025-07-22 01:48:36.568] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:53168
+[2025-07-22 01:48:36.568] [pgw_logger] [debug] Decoded IMSI 588723117102425
+[2025-07-22 01:48:36.568] [pgw_logger] [info] Session created for IMSI 588723117102425
+[2025-07-22 01:48:36.579] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:54587
+[2025-07-22 01:48:36.579] [pgw_logger] [debug] Decoded IMSI 381583964855877
+[2025-07-22 01:48:36.579] [pgw_logger] [info] Session created for IMSI 381583964855877
+[2025-07-22 01:48:36.583] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:54176
+[2025-07-22 01:48:36.583] [pgw_logger] [debug] Decoded IMSI 772994973358687
+[2025-07-22 01:48:36.583] [pgw_logger] [info] Session created for IMSI 772994973358687
+[2025-07-22 01:48:36.590] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:51110
+[2025-07-22 01:48:36.590] [pgw_logger] [debug] Decoded IMSI 306476785706925
+[2025-07-22 01:48:36.590] [pgw_logger] [info] Session created for IMSI 306476785706925
+[2025-07-22 01:48:36.599] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:46653
+[2025-07-22 01:48:36.599] [pgw_logger] [debug] Decoded IMSI 686552627884171
+[2025-07-22 01:48:36.599] [pgw_logger] [info] Session created for IMSI 686552627884171
+[2025-07-22 01:48:36.602] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:49127
+[2025-07-22 01:48:36.602] [pgw_logger] [debug] Decoded IMSI 498832505070813
+[2025-07-22 01:48:36.602] [pgw_logger] [info] Session created for IMSI 498832505070813
+[2025-07-22 01:48:36.603] [pgw_logger] [debug] Received 8 bytes from 127.0.0.1:46734
+[2025-07-22 01:48:36.603] [pgw_logger] [debug] Decoded IMSI 601338370248700
+[2025-07-22 01:48:36.603] [pgw_logger] [info] Session created for IMSI 601338370248700
+[2025-07-22 01:48:37.097] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:38.097] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:39.098] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:40.098] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:41.099] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:42.099] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:43.101] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:44.101] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:45.103] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:46.106] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:47.108] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:48.113] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:49.113] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:50.113] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:50.420] [pgw_logger] [info] HTTP /stop called
+[2025-07-22 01:48:50.925] [pgw_logger] [debug] UDP thread stopping
+[2025-07-22 01:48:51.113] [pgw_logger] [debug] No timed‑out sessions this cycle
+[2025-07-22 01:48:51.113] [pgw_logger] [info] Graceful shutdown: 2 sess/sec
+[2025-07-22 01:48:51.114] [pgw_logger] [info] Gracefully removed 012436371681670
+[2025-07-22 01:48:51.114] [pgw_logger] [info] Gracefully removed 015171572060308
+[2025-07-22 01:48:52.116] [pgw_logger] [info] Gracefully removed 016226273160708
+[2025-07-22 01:48:52.116] [pgw_logger] [info] Gracefully removed 016242040180136
+[2025-07-22 01:48:53.117] [pgw_logger] [info] Gracefully removed 018896423081129
+[2025-07-22 01:48:53.117] [pgw_logger] [info] Gracefully removed 020135479232365
+[2025-07-22 01:48:54.119] [pgw_logger] [info] Gracefully removed 028184171001167
+[2025-07-22 01:48:54.120] [pgw_logger] [info] Gracefully removed 032775171672977
+[2025-07-22 01:48:55.140] [pgw_logger] [info] Gracefully removed 048094666624967
+[2025-07-22 01:48:55.140] [pgw_logger] [info] Gracefully removed 055262888082581
+[2025-07-22 01:48:56.144] [pgw_logger] [info] Gracefully removed 080075532771990
+[2025-07-22 01:48:56.145] [pgw_logger] [info] Gracefully removed 083756145321240
+[2025-07-22 01:48:57.148] [pgw_logger] [info] Gracefully removed 087299731247113
+[2025-07-22 01:48:57.148] [pgw_logger] [info] Gracefully removed 091966951052184
+[2025-07-22 01:48:58.150] [pgw_logger] [info] Gracefully removed 121623993461204
+[2025-07-22 01:48:58.151] [pgw_logger] [info] Gracefully removed 123131727491358
+[2025-07-22 01:48:59.151] [pgw_logger] [info] Gracefully removed 123492562025047
+[2025-07-22 01:48:59.152] [pgw_logger] [info] Gracefully removed 128150917637860
+[2025-07-22 01:49:00.155] [pgw_logger] [info] Gracefully removed 149773776967787
+[2025-07-22 01:49:00.156] [pgw_logger] [info] Gracefully removed 150036454914053
+[2025-07-22 01:49:01.157] [pgw_logger] [info] Gracefully removed 161122945812489
+[2025-07-22 01:49:01.157] [pgw_logger] [info] Gracefully removed 169329293847469
+[2025-07-22 01:49:02.160] [pgw_logger] [info] Gracefully removed 180521190771989
+[2025-07-22 01:49:02.161] [pgw_logger] [info] Gracefully removed 185997822905054
+[2025-07-22 01:49:03.166] [pgw_logger] [info] Gracefully removed 186822680843718
+[2025-07-22 01:49:03.166] [pgw_logger] [info] Gracefully removed 220290275097158
+[2025-07-22 01:49:04.174] [pgw_logger] [info] Gracefully removed 232218552758348
+[2025-07-22 01:49:04.175] [pgw_logger] [info] Gracefully removed 239667020980712
+[2025-07-22 01:49:05.175] [pgw_logger] [info] Gracefully removed 243433879270464
+[2025-07-22 01:49:05.176] [pgw_logger] [info] Gracefully removed 261169227903973
+[2025-07-22 01:49:06.180] [pgw_logger] [info] Gracefully removed 271477618621798
+[2025-07-22 01:49:06.180] [pgw_logger] [info] Gracefully removed 303720661645630
+[2025-07-22 01:49:07.182] [pgw_logger] [info] Gracefully removed 306476785706925
+[2025-07-22 01:49:07.182] [pgw_logger] [info] Gracefully removed 341723626203038
+[2025-07-22 01:49:08.183] [pgw_logger] [info] Gracefully removed 368156332473823
+[2025-07-22 01:49:08.184] [pgw_logger] [info] Gracefully removed 371759495232430
+[2025-07-22 01:49:09.185] [pgw_logger] [info] Gracefully removed 377346786022220
+[2025-07-22 01:49:09.185] [pgw_logger] [info] Gracefully removed 380170183842743
+[2025-07-22 01:49:10.186] [pgw_logger] [info] Gracefully removed 381583964855877
+[2025-07-22 01:49:10.186] [pgw_logger] [info] Gracefully removed 394432480595393
+[2025-07-22 01:49:11.192] [pgw_logger] [info] Gracefully removed 402313881227034
+[2025-07-22 01:49:11.193] [pgw_logger] [info] Gracefully removed 404449529826523
+[2025-07-22 01:49:12.195] [pgw_logger] [info] Gracefully removed 404768436602572
+[2025-07-22 01:49:12.196] [pgw_logger] [info] Gracefully removed 417833106154125
+[2025-07-22 01:49:13.214] [pgw_logger] [info] Gracefully removed 427941485879384
+[2025-07-22 01:49:13.214] [pgw_logger] [info] Gracefully removed 436767381326348
+[2025-07-22 01:49:14.214] [pgw_logger] [info] Gracefully removed 441790665534903
+[2025-07-22 01:49:14.215] [pgw_logger] [info] Gracefully removed 463628598960461
+[2025-07-22 01:49:15.218] [pgw_logger] [info] Gracefully removed 476724789667315
+[2025-07-22 01:49:15.219] [pgw_logger] [info] Gracefully removed 497722131852036
+[2025-07-22 01:49:16.221] [pgw_logger] [info] Gracefully removed 498832505070813
+[2025-07-22 01:49:16.222] [pgw_logger] [info] Gracefully removed 506136633889146
+[2025-07-22 01:49:17.222] [pgw_logger] [info] Gracefully removed 507518024750166
+[2025-07-22 01:49:17.223] [pgw_logger] [info] Gracefully removed 522538350205968
+[2025-07-22 01:49:18.224] [pgw_logger] [info] Gracefully removed 524655378029426
+[2025-07-22 01:49:18.225] [pgw_logger] [info] Gracefully removed 530742478465827
+[2025-07-22 01:49:19.226] [pgw_logger] [info] Gracefully removed 539224174321109
+[2025-07-22 01:49:19.227] [pgw_logger] [info] Gracefully removed 542503971662285
+[2025-07-22 01:49:20.229] [pgw_logger] [info] Gracefully removed 546984258465966
+[2025-07-22 01:49:20.229] [pgw_logger] [info] Gracefully removed 556711690509637
+[2025-07-22 01:49:21.230] [pgw_logger] [info] Gracefully removed 557958134069153
+[2025-07-22 01:49:21.231] [pgw_logger] [info] Gracefully removed 560290660027081
+[2025-07-22 01:49:22.232] [pgw_logger] [info] Gracefully removed 568046692468783
+[2025-07-22 01:49:22.233] [pgw_logger] [info] Gracefully removed 575154337505225
+[2025-07-22 01:49:23.234] [pgw_logger] [info] Gracefully removed 587911914995698
+[2025-07-22 01:49:23.234] [pgw_logger] [info] Gracefully removed 588723117102425
+[2025-07-22 01:49:24.235] [pgw_logger] [info] Gracefully removed 601338370248700
+[2025-07-22 01:49:24.236] [pgw_logger] [info] Gracefully removed 624534628987314
+[2025-07-22 01:49:25.237] [pgw_logger] [info] Gracefully removed 629362282244529
+[2025-07-22 01:49:25.237] [pgw_logger] [info] Gracefully removed 643702647383244
+[2025-07-22 01:49:26.239] [pgw_logger] [info] Gracefully removed 652694532972689
+[2025-07-22 01:49:26.239] [pgw_logger] [info] Gracefully removed 681176302935874
+[2025-07-22 01:49:27.242] [pgw_logger] [info] Gracefully removed 686552627884171
+[2025-07-22 01:49:27.242] [pgw_logger] [info] Gracefully removed 691813090945693
+[2025-07-22 01:49:28.243] [pgw_logger] [info] Gracefully removed 705250542403714
+[2025-07-22 01:49:28.244] [pgw_logger] [info] Gracefully removed 717820621054705
+[2025-07-22 01:49:29.245] [pgw_logger] [info] Gracefully removed 730971528828344
+[2025-07-22 01:49:29.245] [pgw_logger] [info] Gracefully removed 747366322091251
+[2025-07-22 01:49:30.246] [pgw_logger] [info] Gracefully removed 751973761132700
+[2025-07-22 01:49:30.247] [pgw_logger] [info] Gracefully removed 772994973358687
+[2025-07-22 01:49:31.247] [pgw_logger] [info] Gracefully removed 778568222474804
+[2025-07-22 01:49:31.248] [pgw_logger] [info] Gracefully removed 786633413766201
+[2025-07-22 01:49:32.250] [pgw_logger] [info] Gracefully removed 787459806304842
+[2025-07-22 01:49:32.250] [pgw_logger] [info] Gracefully removed 795147342867514
+[2025-07-22 01:49:33.253] [pgw_logger] [info] Gracefully removed 820161358339833
+[2025-07-22 01:49:33.253] [pgw_logger] [info] Gracefully removed 826346993664740
+[2025-07-22 01:49:34.254] [pgw_logger] [info] Gracefully removed 838963026453474
+[2025-07-22 01:49:34.256] [pgw_logger] [info] Gracefully removed 848979803439162
+[2025-07-22 01:49:35.257] [pgw_logger] [info] Gracefully removed 859599808737273
+[2025-07-22 01:49:35.257] [pgw_logger] [info] Gracefully removed 870295025854473
+[2025-07-22 01:49:36.259] [pgw_logger] [info] Gracefully removed 875515211776539
+[2025-07-22 01:49:36.259] [pgw_logger] [info] Gracefully removed 894451882634881
+[2025-07-22 01:49:37.262] [pgw_logger] [info] Gracefully removed 898932159992447
+[2025-07-22 01:49:37.263] [pgw_logger] [info] Gracefully removed 900860902107368
+[2025-07-22 01:49:38.264] [pgw_logger] [info] Gracefully removed 914370825251301
+[2025-07-22 01:49:38.264] [pgw_logger] [info] Gracefully removed 927882754904577
+[2025-07-22 01:49:39.264] [pgw_logger] [info] Gracefully removed 933977337113661
+[2025-07-22 01:49:39.265] [pgw_logger] [info] Gracefully removed 940420329133280
+[2025-07-22 01:49:40.266] [pgw_logger] [info] Gracefully removed 976161055053393
+[2025-07-22 01:49:40.267] [pgw_logger] [info] Gracefully removed 994025438433058
+[2025-07-22 01:49:41.268] [pgw_logger] [info] Graceful shutdown complete
+[2025-07-22 01:49:41.269] [pgw_logger] [info] All done, exiting
